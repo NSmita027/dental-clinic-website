@@ -1,0 +1,252 @@
+/* =====================================================================before-after-main-section===================================================================== */
+
+/* -------------------------------------------------------------------------------------------------1---------------------------------------------------------------------------- */
+
+.before-after-main-section{
+    height: 120vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .before-after-main-section h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 8%;
+  }
+  
+  .before-after-main-section h3{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 2%;
+  }
+  
+  .before-after-main-section .before-after-main-sub-section{
+    height: 150vh;
+    max-width: 1550px;
+    /* border: 2px solid black; */
+    display: grid;
+      grid-template-columns: 1fr; /* Two equal-width columns */
+      grid-template-rows: auto auto auto auto auto auto auto auto; /* Four rows */
+      /* gap: 10px; Optional: Space between the cells */
+  }
+  
+  .before-after-main-sub-section .bef-aft-1-img-cont{
+    height: 30vh;
+    width: 90%;
+    margin-left: 4.5%;
+    margin-top: 5%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* ****************** */
+  
+  .bef-aft-1-img-cont .bef-img-cont{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+  }
+  
+  .bef-img-cont .bef-img{
+    height: 80%;
+    width: 40%;
+    margin-left: 30%;
+    /* border: 8px solid black; */
+  }
+  
+  .bef-img img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .bef-img-cont p{
+    /* border: 2px solid green; */
+    height: 13%;
+    width: 90%;
+    margin-left: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 3%;
+    letter-spacing: 0.1rem;
+  }
+  
+  /* ******************** */
+  
+  .bef-aft-1-img-cont .aft-img-cont{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+  }
+  
+  .aft-img-cont .aft-img{
+    height: 80%;
+    width: 40%;
+    margin-left: 30%;
+    /* border: 8px solid black; */
+  }
+  
+  .aft-img img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .aft-img-cont p{
+    /* border: 2px solid green; */
+    height: 13%;
+    width: 90%;
+    margin-left: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 3%;
+    letter-spacing: 0.1rem;
+  }
+  
+
+  /* ---------------------------------------------------------image-slideshow-------------------------------------------- */
+
+
+  .before-after-image-container{
+    height: 60vh;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 5%;
+    /* gap: 1%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+  }
+  
+  .before-after-before-container, .before-after-after-container{
+    /* height: 53vh;
+    width: 28%; */
+    position: relative;
+      /* border: 10px solid blue;  */
+      /* padding: 10px; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 320px; /* Adjust as needed */
+      height: 420px; /* Adjust as needed */
+    background-color: transparent;
+    margin-right: 10px;
+    border-radius: 20px;
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); */
+    /* border: 2px solid black; */
+  }
+  
+  .before-after-before-container .before-after-b-img-sub-container{
+    height: 58vh;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    /* transform: translate(-50%,-50%); */
+    border: 5px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .before-after-after-container .before-after-a-img-sub-container{
+    height: 58vh;
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 0%;
+    overflow: hidden;
+    border: 5px solid black;
+    border-radius: 20px;
+  }
+  
+  
+  .before-after-b-img-sub-container .before-after-before-images-content img{
+    height: auto;
+    width: 100%;
+    object-fit: cover; 
+    /* border: 2px solid blue; */
+  }
+  
+  .before-after-a-img-sub-container .before-after-after-images-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+  }
+  
+  .dentallabel {
+    position: absolute;
+    bottom: -20px; /* Adjusted to place inside the border */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 255, 0.2);
+  }
+
+   /* ------------------------------------------------------------------------------------dentist-client------------------------------------ */
+  
+   .people-main-section{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; */
+    /* background-color: #BEB2A6; */
+    background-color:  #c0b9b2;
+    border: 2px solid transparent;
+  }
+  
+  
+  .people-main-section .people-slider-wrapper{
+    overflow: hidden;
+    margin: 0 60x 50px;
+  }
+  
+  
+  .people-main-section .people-item {
+    display: flex;
+    /* padding: 35px; */
+    padding-top: 15px;
+    padding-bottom: 50px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+    /* border: 2px solid black; */
+  }
+  
+  .people-main-section .people-item .people-images{
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    /* border-radius: 50%; */
+    margin-bottom: 50px;
+    border: 10px solid #f9f2e8;
+  }
+  
+  .people-main-section .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    margin-bottom: 5%;
+    /* border: 2px solid black; */
+  }
+  
+ 

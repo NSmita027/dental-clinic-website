@@ -1,0 +1,123 @@
+/* =======================================================contact-form======================================================== */
+
+
+/* -----------------------------------------------------------contact-form---------------------------------------------------- */
+
+.contact-form-section{
+    height: 100vh;
+    width: 100%;
+    background-color: #ebe3da;
+  }
+  
+  .form-main-container{
+    height: 100vh;
+    width: 100%;
+    margin-top: 10vh;
+    /* border: 2px solid black; */
+  }
+  
+  .form-container{
+    margin-top: 8vh;
+    margin-left: 5%;
+    width: 90%;
+    padding: 20px;
+    padding-left: 15%;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    margin-left: -20%;
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+  
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+  }
+  
+  .form-division-1{
+    /* border: 2px solid black; */
+    margin-left: -20%;
+    margin-top: -1%;
+    height: 70vh;
+  }
+  
+  .form-division-2{
+    /* border: 2px solid black; */
+    /* margin-left: -20%; */
+    margin-top: -1%;
+    height: 70vh;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+    /* border: 2px solid green; */
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    margin-bottom: 10px;
+    /* border: 2px solid blueviolet; */
+  }
+  
+  .form-group input, .form-group textarea, .form-group select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group input[type="checkbox"] {
+    width: 2.5rem;
+    margin-top: 3%;
+  }
+  
+  .form-group .captcha {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+  .form-group button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 83%;
+    letter-spacing: 0.1rem;
+  }
+  
+  .form-group button:hover {
+    background-color: #cc5200;
+  }
+  
+  .upload-area {
+    border: 2px dashed #ccc;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .upload-area:hover {
+    background-color: #e9e9e9;
+  }
+  

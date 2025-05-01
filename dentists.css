@@ -1,0 +1,371 @@
+/* ==========================================================dentits-section=============================================== */
+
+
+/* --------------------------------------------------------------dentists-section-1st page------------------------------------- */
+
+.dentists-main-section{
+    height: 100vh;
+    width: 100%;
+    background-color: #ebe3da;
+    border: 2px solid transparent;
+  }
+  
+  .dentists-main-section h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 8%;
+  }
+  
+  .dentists-main-section h3{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 2%;
+  }
+  
+  .dentists-main-section .dentists-main-container{
+    height: 70vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+  }
+  
+  .dentists-main-container .dentists-images-container{
+    height: 68vh;
+    width: 50%;
+    /* border: 12px solid blue; */
+  }
+  
+  .dentists-images-container .den-img{
+    height: 50vh;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 10%;
+    /* border: 2px solid red; */
+  }
+  
+  .den-img img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .dentists-main-container .dentists-intro-container{
+    height: 48vh;
+    width: 50%;
+    /* border: 20px solid green; */
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .dentists-intro-container li{
+    margin-top: 2%;
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    text-align: left;
+  }
+  
+  .dentists-intro-container li span{
+    font-weight: 700;
+  }
+  
+  @media (max-width:1060px){
+    .dentists-main-section{
+      height: 135vh;
+    }
+  
+    .dentists-main-section h2{
+      margin-top: 12%;
+    }
+  
+    .dentists-main-container .dentists-images-container{
+      margin-top: 5%;
+      /* border: 12px solid blue; */
+    }
+    
+    .dentists-images-container .den-img{
+      height: 55vh;
+      width: 82%;
+      margin-left: 10.5%;
+      margin-top: 10%;
+      /* border: 2px solid red; */
+    }
+    
+    .den-img img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  
+  /* -------------------------------------------------------------------------------------------2nd--------------------------------------------------------- */
+  
+  .dentists-clinic-main-section{
+    height: 90vh;
+    width: 100%;
+    background-color: #ebe3da;
+    border: 2px solid transparent;
+  }
+  
+  
+  .dentists-clinic-main-section .dentists-clinic-main-container{
+    height: 85vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .dentists-clinic-main-container .dentists-clinic-images-container{
+    height: 68vh;
+    width: 50%;
+    padding-top: 12%;
+    /* border: 12px solid blue; */
+  }
+  
+  .dentists-clinic-images-container .den-clinic-img{
+    height: 41vh;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 10%;
+    /* border: 8px solid black; */
+  }
+  
+  /* .den-clinic-img img{
+    height: 100%;
+    width: 100%;
+  } */
+  
+  .dentists-clinic-main-container .dentists-clinic-intro-container{
+    height: 48vh;
+    width: 50%;
+    /* border: 20px solid green; */
+    /* padding-top: 5%; */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .dentists-clinic-intro-container li{
+    margin-top: 2%;
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    line-height: 2rem;
+  }
+  
+  .dentists-clinic-intro-container li span{
+    font-weight:700;
+  }
+  
+  /* ******************************************* */
+  
+  .dental-images-list{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); */
+    /* border: 2px solid blue; */
+  }
+  
+  .dental-images-list .clinic-images-list{
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    /* border: 5px solid green; */
+    overflow: hidden;
+  }
+  
+  
+  .clinic-images-list .dental-clinic-images-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    /* border: 8px solid black; */
+  }
+  
+  @media (max-width:1060px) {
+     /* ***********************2nd*********************** */
+     .dentists-clinic-main-section{
+      height: 140vh;
+    }
+  
+    .dentists-clinic-main-section .dentists-clinic-main-container{
+      height: 120vh;
+    }
+  
+    .dentists-clinic-main-container .dentists-clinic-images-container{
+      padding-top: 0%;
+      margin-top: 0%;
+    }
+  
+    .dentists-clinic-main-container .dentists-clinic-intro-container{
+      height: 100vh;
+      width: 50%;
+    }
+    
+  }
+  
+  /* -------------------------------------------------------------------------------------------3rd--------------------------------------------------------------------- */
+  
+  .dentists-clinic-second-main-section{
+    height: 130vh;
+    width: 100%;
+    background-color: #ebe3da;
+    border: 2px solid transparent;
+  }
+  
+  .dentists-clinic-second-main-section .dentists-clinic-second-main-container{
+    height: 100vh;
+    max-width: 90%;
+    /* margin-top: 8%; */
+    margin-left: 5%;
+    background-color: #ebe3da;
+    /* border: 2px solid black; */
+  }
+  
+  .dentists-clinic-second-main-container ul{
+    /* border: 2px solid black; */
+  }
+  
+  .dentists-clinic-second-main-container ul li{
+    margin-top: 2%;
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    line-height: 2rem;
+  }
+  
+  .dentists-clinic-second-main-container ul li span{
+    font-weight: 700;
+  }
+  
+  .dentists-clinic-second-main-container h2{
+    text-align: left;
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 4%;
+  }
+  
+  .dentists-clinic-second-main-container #our-mission{
+    margin-top: -5%;
+  }
+  
+  .dentists-clinic-second-main-container .places-of-clinic{
+    height: 30vh;
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+  .places-of-clinic .proff-assc{
+    /* border : 2px solid blue; */
+    margin-top: 1%;
+  }
+  
+  .proff-assc li{
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    /* text-align: left; */
+  }
+  
+  .dentists-clinic-second-main-container .mission-containers{
+    height: 30vh;
+    width: 100%;
+    margin-top: 2%;
+    /* border : 2px solid red; */
+  }
+  
+  .mission-containers .mission-content{
+    /* border : 2px solid blue; */
+    margin-top: 1%;
+  }
+  
+  .mission-content li{
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  
+  @media (max-width:1060px) {
+    .dentists-clinic-second-main-section{
+      height: 130vh;
+    }
+    .dentists-clinic-second-main-container #our-mission{
+      margin-top: 0%;
+    }
+  
+    .mission-content li{
+      font-size: 1.1rem;
+      margin-top: 1.5%;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      letter-spacing: 0.1rem;
+    }
+  }
+  
+
+  /* ------------------------------------------------------------------------------------dentist-client------------------------------------ */
+  
+  .people-main-section{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; */
+    /* background-color: #BEB2A6; */
+    background-color:  #c0b9b2;
+    border: 2px solid transparent;
+  }
+  
+  
+  .people-main-section .people-slider-wrapper{
+    overflow: hidden;
+    margin: 0 60x 50px;
+  }
+  
+  
+  .people-main-section .people-item {
+    display: flex;
+    /* padding: 35px; */
+    padding-top: 15px;
+    padding-bottom: 50px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+    /* border: 2px solid black; */
+  }
+  
+  .people-main-section .people-item .people-images{
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    /* border-radius: 50%; */
+    margin-bottom: 50px;
+    border: 10px solid #f9f2e8;
+  }
+  
+  .people-main-section .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    margin-bottom: 5%;
+    /* border: 2px solid black; */
+  }
+  
+ 

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadali Dental Care</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <!-- linking swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- linking google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sweet+Gothic&display=swap" rel="stylesheet">
+    <!-- linking boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="testimonials-videos.css">
+</head>
+<body>
+
+    <!-- --------------------------------------------navbar----------------------------------------------------------------------------------- -->
+    <header>
+        <nav class="navbar">
+            <!-- Logo Section -->
+            <div class="nav-logo">
+                <div class="logo"></div>
+                <div class="clinic-centers">
+                    <p>Andheri | Colaba</p>
+                </div>
+            </div>  
+    
+            <!-- Menu Icon for Mobile -->
+            <div class="menu-icon" id="menu-icon">
+                <i class="fa fa-bars"></i>
+            </div>
+
+    
+            <!-- Navigation Links -->
+            <ul class="nav-list" id="nav-list">
+                <li class="contents"><a href="index.html">Home</a></li>
+                <li class="contents"><a href="Dentists.html">Team</a></li>
+                <li class="contents dropdown">
+                    <a href="#" id="treatments-link">Treatments</a>
+                    <!-- Dropdown Menu -->
+                    <ul class="dropdown-menu">
+                        <li><a href="Dental-Implants.html">Dental Implants</a></li>
+                        <li><a href="Smile-Makeover.html">Smile Makeover</a></li>
+                        <li><a href="one-sitting-root-canal.html">Root Canal</a></li>
+                        <li><a href="Teeth-Whitening.html">Teeth Whitening</a></li>
+                        <li><a href="smile-in-hour.html">Smile in an Hour</a></li>
+                        <li><a href="General-Dentistry.html">General Dentistry</a></li>
+                        <li><a href="Orthodontic-Braces.html">Orthodontic Braces</a></li>
+
+                    </ul>
+                </li>
+                <li class="contents"><a href="Testimonials.html">Testimonials</a></li>
+                <li class="contents"><a href="before-after.html">Smile-Gallery</a></li>
+                <li class="contents"><a href="location-map.html">Locations</a></li>
+                <li class="contents"><a href="dental-tourism.html">Tourism</a></li>
+                <li class="contents"><a href="Services.html">Services</a></li>
+                <li class="contents"><a href="contact-us.html">Contact</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <!-- ----------------------------------------------------------------1-------------------------------------------------------------------- -->
+
+    <section class="video-testimonial-main-section">
+        <h2 class="video-testimonial-main-section-title">Patients' Reviews</h2>
+        <div class="video-testimonial-main-section-content">
+            <div class="video-testimonial-main-section-slider-container swiper">
+                <div class="video-testimonial-main-section-slider-wrapper">
+                    <ul class="video-testimonial-main-section-testimonials-list swiper-wrapper">
+                        <li class="video-testimonial-main-section-testimonial swiper-slide">
+                            <video class="video-testimonial-main-section-user-video" controls>
+                                <source src="video3.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </li>
+                        <li class="video-testimonial-main-section-testimonial swiper-slide">
+                            <video class="video-testimonial-main-section-user-video" controls>
+                                <source src="video2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                        </li>
+                        <li class="video-testimonial-main-section-testimonial swiper-slide">
+                            <video class="video-testimonial-main-section-user-video" controls>
+                                <source src="video4.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                        </li>
+                        <li class="video-testimonial-main-section-testimonial swiper-slide">
+                            <video class="video-testimonial-main-section-user-video" controls>
+                                <source src="video5.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                        </li>
+                        <li class="video-testimonial-main-section-testimonial swiper-slide">
+                            <video class="video-testimonial-main-section-user-video" controls>
+                                <source src="video1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                        </li>
+                    </ul>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------2------------------------------------------------------------------------ -->
+
+    <section class="you-tube-videos-main-section">
+        <div class="video-container" id="videoContainer">
+            <!-- Videos will be inserted here -->
+        </div>
+        <div class="pagination">
+            <button onclick="changePage(1)">1</button>
+            <button onclick="changePage(2)">2</button>
+            <button onclick="changePage(3)">3</button>
+            <button onclick="changePage(4)">4</button>
+            <button onclick="changePage(5)">5</button>
+            <button onclick="changePage(6)">6</button>
+            <!-- Add more buttons as needed -->
+        </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------footer - contact-------------------------------------------------------- -->
+    <footer>
+        <div class="last-container">
+            <div class="first-footer-section">
+                <p><i class="fa-regular fa-envelope"></i> info@kadalidental.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> +91 981 920 1882</p>
+                <!-- <p><i class="fa-solid fa-car-side"></i> Free Pick-up</p> -->
+            </div>
+            <div class="second-footer-section">
+                <p id="add1">Home  | Facilities At The Clinic   | Our Team   | Cosmetic Dentistry   | Tooth Whitening   | Dental Implants   | Before & Afters   | Dental Tourism   | Frequently Asked Questions   | Sitemap <br>
+                    © 2024-25 Kadali's Advanced Dental Care & Centre for Cosmetic Dentistry, Mumbai, India.</p>
+                <p id="address"><span>Kadali Dental </span><br>
+
+                    Address: 40/102, 1st Floor, Sargam Society, Mhada Complex, Oshiwara Link Road Andheri West, Mumbai, Maharashtra 400102, India <br>
+                    Phone: +91 22 2635 9490
+                    </p>
+            </div>
+        </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="testimonials-videos.js"></script>
+</body>
+</html>

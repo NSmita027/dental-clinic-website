@@ -1,0 +1,663 @@
+.orthodontic-braces-main-section{
+    height: 90vh;
+    width: 100%;
+    margin-top: 7vh;
+    /* border: 2px solid transparent; */
+    background-color:  #c0b9b2;
+  }
+  
+  .orthodontic-braces-subsection{
+    height: 90vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+    background-color:  #c0b9b2;
+    margin-top: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .orthodontic-braces-subsection-text-part{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid blueviolet; */
+  }
+  
+  .orthodontic-braces-subsection-text-part .orthodontic-braces-bg{
+    height: 60vh;
+    width: 70%;
+    border: 2px solid transparent;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), center no-repeat;
+    margin-top: 20%;
+    margin-left: 5%;
+    padding-top: -10%;
+  }
+  
+  .orthodontic-braces-wrapper{
+    width: 100%;
+    height: 100vh;
+    top:0%;
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.1)), url(orthodontic-bg.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .orthodontic-braces-subsection-text-part .orthodontic-braces-title{
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 8%;
+  }
+  
+  .orthodontic-braces-title h3{
+    font-size: 2rem !important;
+    font-weight: normal;
+    margin-left: 5%;
+    color: white;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  .orthodontic-braces-subsection-text-part .orthodontic-braces-sub-title{
+    /* border: 2px solid rgb(189, 11, 71); */
+    height: 55%;
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+  .orthodontic-braces-sub-title p{
+    font-size: 1.2rem !important;
+    /* font-family: 'sweeth-gothic', sans-serif; */
+    font-family: 'SangBleu Kingdom Light, Georgia', serif;
+    letter-spacing: 0.12rem;
+    color: white;
+    font-weight: 500;
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  .orthodontic-braces-subsection-text-part .contact-btn{
+    margin-top: -20% ;
+    height: 2.5rem;
+    width: 9.5rem;
+    /* border-radius: 20px; */
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 5%;
+  }
+  
+  .orthodontic-braces-subsection-text-part .contact-btn a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    color: black;
+  }
+  
+  .orthodontic-braces-subsection-text-part .contact-btn:hover{
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .orthodontic-braces-subsection-text-part .contact-btn:hover a{
+    color: white;
+  }
+
+
+
+  /* ----------------------------------------------------------types---------------------------------------------------------------- */
+
+
+
+
+  .orthodontic-braces-types-section{
+    height: 120vh;
+    width: 100%;
+    background-color: #ebe3da;
+    border: 2px solid transparent;
+  }
+  
+  .orthodontic-braces-types-section h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 5%;
+  }
+  
+  .orthodontic-braces-types-section .orthodontic-braces-types-container{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+  }
+  
+  .orthodontic-braces-types-section .orthodontic-braces-types-paragraph-container{
+    height: 105vh;
+    width: 100%;
+    margin-top: .5vh;
+    /* border: 2px solid brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+  }
+  
+  .orthodontic-braces-types-img-container{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid blue; */
+  }
+  
+  .orthodontic-braces-types-img-sub-container{
+    height: 60vh;
+    margin-top: 15.5vh;
+    width: 70%;
+    margin-left: 15%;
+    /* border: 2px solid green; */
+  }
+  
+  .orthodontic-braces-types-img-sub-container .orthodontic-braces-types-sample{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .orthodontic-braces-types-text-container{
+    width: 45%;
+    height: 80%;
+    /* border: 2px solid green; */
+    padding-top: 10%;
+  }
+  
+  .accordion {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 10px;
+    height: 60%;
+    background-color: #ebe3da ;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    /* border: 2px solid blue; */
+    margin-top: 2%;
+    margin-right: 0%;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .accordion-item {
+     /* border-bottom: 1px solid #ddd; */
+     /* border: 2px solid black; */
+     margin-bottom: 5%;
+     /* padding: 3%; */
+     /* height: 15%; */
+     /* gap: 10%;  */
+  }
+  
+  .accordion-item:last-child {
+    border-bottom: none;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: -3%;
+    border: 2px solid transparent;
+    background-color: #dad3cd;
+  }
+  
+  .accordion-header:hover {
+    background-color: #6e6b69;
+  }
+  
+  .accordion-header span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    font-weight: lighter;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+    background-color: #ebe3da;
+    z-index: 1000;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+  }
+  
+  .accordion-content.open {
+    max-height: 500px; /* Ensure it's enough to fit your content */
+    padding: 15px 20px;
+    display: block;
+  }
+  
+  .accordion-content p {
+    margin: 10px 0;
+    color: black;
+    letter-spacing: 0.1rem;
+  }
+  
+  .toggle-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    margin-right: 3%;
+  }
+  
+  .toggle-btn:focus {
+    /* outline: 2px solid #aaa; */
+  }
+  
+
+  /* ----------------------------------------------------------benefits---------------------------------------------------------- */
+
+  .orthodontic-benefits{
+    height: 45ch;
+    width: 100%;
+    background-color: #dad3cd;
+  }
+
+  .orthodontic-benefits h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .orthodontic-benefits p{
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    padding-top: 1%;
+    margin-left: 5%;
+  }
+
+
+   /* ----------------------------------------------------------treatments---------------------------------------------------------- */
+
+   .orthodontic-treatments{
+    height: 45ch;
+    width: 100%;
+    background-color: #dad3cd;
+  }
+
+  .orthodontic-treatments h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    padding-top: 0%;
+    padding-bottom: 5%;
+  }
+
+  .orthodontic-treatments p{
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    padding-top: 1%;
+    margin-left: 5%;
+  }
+
+
+  /* -----------------------------------------------------------Considerations---------------------------------------------------------- */
+
+  .orthodontic-Considerations{
+    height: 45ch;
+    width: 100%;
+    background-color: #dad3cd;
+  }
+
+  .orthodontic-Considerations h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    padding-top: 0%;
+    padding-bottom: 5%;
+  }
+
+  .orthodontic-Considerations p{
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    padding-top: 1%;
+    margin-left: 5%;
+  }
+
+  .orthodontic-Considerations #orthodontic-conclusion{
+    margin-top: 2%;
+    font-size: 1.5rem;
+  }
+
+
+/* <!-- ----------------------------------------------------------------------------teeth-aligners------------------------------------------ --*/
+
+.teeth-aligners-main-section{
+  height: 80vh;
+  width: 100%;
+  background-color: #ebe3da;
+  display: flex;
+  justify-content: center;
+}
+
+.teeth-aligners-main-section .teeth-aligner-img-cont{
+  height: 80%;
+  margin-top: 4%;
+  width: 40%;
+  /* border: 2px solid rebeccapurple; */
+}
+
+.teeth-aligner-img-cont .teeth-aligner-img{
+  height: 50vh;
+  width: 30vw;
+  margin-left: 8%;
+  margin-top: 10%;
+  /* border: 2px solid red; */
+}
+
+.teeth-aligner-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.teeth-aligners-main-section .teeth-aligner-text-cont{
+  height: 30%;
+  margin-top: 10%;
+  width: 50%;
+  margin-left: 5%;
+  /* border: 2px solid rebeccapurple; */
+  padding-top: 5%;
+}
+
+.teeth-aligner-text-cont h2{
+  text-align: left;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+.teeth-aligner-text-cont p{
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  padding-top: 1%;
+  margin-left: 1.5%;
+}
+
+
+
+
+/* ----------------------------------------------------------types---------------------------------------------------------------- */
+
+
+.teeth-aligner-types{
+  height: 90vh;
+  width: 100%;
+  background-color: #d0c8c0;
+  border: 2px solid transparent;
+}
+
+.teeth-aligner-types h2{
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  margin-top: 5%;
+}
+
+.teeth-aligner-types .teeth-aligner-types-container{
+  height: 100vh;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+
+.teeth-aligner-types .teeth-aligner-types-paragraph-container{
+  height: 105vh;
+  width: 100%;
+  margin-top: .5vh;
+  /* border: 2px solid brown; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+.teeth-aligner-types-img-container{
+  width: 50%;
+  height: 100%;
+  /* border: 2px solid blue; */
+}
+
+.teeth-aligner-types-img-sub-container{
+  height: 50vh;
+  margin-top: 15.5vh;
+  width: 70%;
+  margin-left: 15%;
+  /* border: 2px solid green; */
+}
+
+.teeth-aligner-types-img-sub-container .teeth-aligner-types-sample{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.teeth-aligner-types-text-container{
+  width: 45%;
+  height: 80%;
+  /* border: 2px solid green; */
+  padding-top: 10%;
+}
+
+.teeth-aligner-types-text-container .accordion {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 10px;
+  height: 60%;
+  background-color: #d0c8c0;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  /* border: 2px solid blue; */
+  margin-top: 2%;
+  margin-right: 0%;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.accordion-item {
+   /* border-bottom: 1px solid #ddd; */
+   /* border: 2px solid black; */
+   margin-bottom: 5%;
+   /* padding: 3%; */
+   /* height: 15%; */
+   /* gap: 10%;  */
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.teeth-aligner-types-text-container .accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-right: -3%;
+  border: 2px solid transparent;
+  background-color: #efe6df;
+}
+
+.teeth-aligner-types-text-container .accordion-header:hover {
+  background-color: #6e6b69;
+}
+
+.accordion-header span{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  font-weight: lighter;
+}
+
+.teeth-aligner-types-text-container .accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.6;
+  background-color: #d0c8c0;
+  z-index: 1000;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+.accordion-content.open {
+  max-height: 500px; /* Ensure it's enough to fit your content */
+  padding: 15px 20px;
+  display: block;
+}
+
+.accordion-content p {
+  margin: 10px 0;
+  color: black;
+  letter-spacing: 0.1rem;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  margin-right: 3%;
+}
+
+.toggle-btn:focus {
+  /* outline: 2px solid #aaa; */
+}
+
+
+
+/* =============== */
+/* ----------------------------------------------------------benefits---------------------------------------------------------- */
+
+.teeth-benefits{
+  height: 45ch;
+  width: 100%;
+  background-color: #dad3cd;
+}
+
+.teeth-benefits h2{
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.teeth-benefits p{
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  padding-top: 1%;
+  margin-left: 5%;
+}
+
+
+ /* ----------------------------------------------------------teeth-aligners-work--------------------------------------------------------- */
+
+ .teeth-aligners-work{
+  height: 45ch;
+  width: 100%;
+  background-color: #dad3cd;
+}
+
+.teeth-aligners-work h2{
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  padding-top: 0%;
+  padding-bottom: 5%;
+}
+
+.teeth-aligners-work p{
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  padding-top: 1%;
+  margin-left: 5%;
+}
+
+
+/* -----------------------------------------------------------Considerations---------------------------------------------------------- */
+
+.teeth-aligners-Considerations{
+  height: 45ch;
+  width: 100%;
+  background-color: #dad3cd;
+}
+
+.teeth-aligners-Considerations h2{
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  padding-top: 0%;
+  padding-bottom: 5%;
+}
+
+.teeth-aligners-Considerations p{
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  padding-top: 1%;
+  margin-left: 5%;
+}
+
+.teeth-aligners-Considerations #teeth-aligners-conclusion{
+  margin-top: 2%;
+  font-size: 1.5rem;
+}

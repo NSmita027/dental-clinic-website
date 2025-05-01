@@ -1,0 +1,460 @@
+/* ====================================================================================smile-in-hour-section============================================================================= */
+
+.smile-hour-main-section{
+    height: 90vh;
+    width: 100%;
+    margin-top: 7vh;
+    /* border: 2px solid transparent; */
+    background-color:  #c0b9b2;
+  }
+  
+  .smile-hour-subsection{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+    background-color:  #c0b9b2;
+    margin-top: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .smile-hour-subsection-text-part{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid blueviolet; */
+  }
+  
+  .smile-hour-subsection-text-part .smile-hour-bg{
+    height: 60vh;
+    width: 70%;
+    border: 2px solid transparent;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), center no-repeat;
+    /* background: linear-gradient(rgba(6, 79, 205, 0.7), rgba(5, 85, 198, 0.2)), center no-repeat; */
+    margin-top: 20%;
+    margin-left: 5%;
+    padding-top: -10%;
+  }
+  
+  .smile-hour-wrapper{
+    width: 100%;
+    height: 100vh;
+    top:-8%;
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.1)), url(smile-in-hour-bg.jpg) center no-repeat;
+    background-size: cover;
+    /* box-shadow: 0.1rem 5rem rgba(0, 0, 0, 0.6); */
+    position: relative;
+  }
+  
+  .smile-hour-subsection-text-part .smile-hour-title{
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 8%;
+    /* margin-left: -30%; */
+  }
+  
+  .smile-hour-title h3{
+    font-size: 2rem !important;
+    font-weight: normal;
+    margin-left: 5%;
+    color: white;
+    font-weight: 500;
+    /* text-align: center; */
+    /* font-family: 'playfair display', serif; */
+    /* font-family: 'sweeth-gothic', sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  .smile-hour-subsection-text-part .smile-hour-sub-title{
+    /* border: 2px solid rgb(189, 11, 71); */
+    height: 55%;
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+  .smile-hour-sub-title p{
+    font-size: 1.2rem !important;
+    /* font-family: 'sweeth-gothic', sans-serif; */
+    font-family: 'SangBleu Kingdom Light, Georgia', serif;
+    letter-spacing: 0.12rem;
+    color: white;
+    font-weight: 500;
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  .smile-hour-subsection-text-part .contact-btn{
+    margin-top: -20% ;
+    height: 2.5rem;
+    width: 9.5rem;
+    /* border-radius: 20px; */
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 5%;
+  }
+  
+  .smile-hour-subsection-text-part .contact-btn a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    color: black;
+  }
+  
+  .smile-hour-subsection-text-part .contact-btn:hover{
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .smile-hour-subsection-text-part .contact-btn:hover a{
+    color: white;
+  }
+  
+  
+  
+  /* -----------------------------------------------------------------------------------------------1st--------------------------------------------------------------------------------------*/
+  
+  .smile-in-hour-section{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .smile-in-hour-section h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 8%;
+  }
+  
+  .smile-in-hour-section h3{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 2%;
+  }
+  
+  .smile-in-hour-section .smile-in-hour-main-container{
+    /* border: 2px solid blue; */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .smile-in-hour-main-container .smile-in-hour-images-container{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+  }
+  
+  .smile-in-hour-images-container .smile-in-hour-img{
+    /* border: 2px solid rgb(244, 8, 244); */
+    height: 20vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 22%;
+  }
+  
+  .smile-in-hour-img img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .smile-in-hour-main-container .smile-in-hour-intro-container{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+  }
+  
+  .smile-in-hour-intro-container h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    margin-top: 8%;
+  }
+  
+  .smile-in-hour-intro-container ul{
+    margin-top: 3%;
+    width: 90%;
+    margin-left: 7%;
+    line-height: 2rem;
+  }
+  
+  .smile-in-hour-intro-container ul li{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  .smile-in-hour-intro-container ul li span{
+    font-weight: 700;
+  }
+  
+  /* ------------------------------------------------------------------------------------2------------------------------------------------------------------------------------ */
+  
+  .new-Smile-second-section{
+    height: 70vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: #ebe3da;
+  }
+  
+  .new-Smile-second-section .new-Smile-second-container {
+    /* border: 2px solid blue; */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .new-Smile-second-container .new-Smile-images-container{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 60vh;
+    /* margin-top: -15%; */
+  }
+  
+  .new-Smile-images-container .new-Smile-vid{
+    /* border: 2px solid magenta; */
+    height: 50vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 7%;
+  }
+  
+  .new-Smile-vid video{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .new-Smile-second-container .new-Smile-intro-container{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 50vh;
+    /* margin-top: -15%; */
+    padding-top: 5%;
+  }
+  
+  .new-Smile-intro-container h2{
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    margin-left: 7%;
+    margin-top: 8%;
+  }
+  
+  .new-Smile-intro-container ul {
+    margin-top: 3%;
+    width: 90%;
+    margin-left: 10%;
+    line-height: 2rem;
+  }
+  
+  .new-Smile-intro-container ul li{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  /* -----------------------------------------------------3--------------------------------------------------------- */
+  
+  .new-Smile-third-section{
+    height: 90vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .new-Smile-third-section .new-Smile-third-container {
+    /* border: 2px solid blue; */
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .new-Smile-third-container .new-Smile-prt2-images-container{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 60vh;
+    /* margin-top: -15%; */
+  }
+  
+  .new-Smile-prt2-images-container .new-Smile-prt2-img{
+    /* border: 2px solid magenta; */
+    height: 55vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 7%;
+  }
+  
+  .new-Smile-prt2-img img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .new-Smile-third-container .new-Smile-prt2-intro-container{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 50vh;
+    /* margin-top: -15%; */
+    padding-top: 5%;
+  }
+  
+  .new-Smile-prt2-intro-container h2{
+    text-align: right;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    margin-right: 5.5%;
+    margin-top: 4%;
+  }
+  
+  .new-Smile-prt2-intro-container ul {
+    margin-top: 3%;
+    width: 90%;
+    margin-left: 17%;
+    line-height: 2rem;
+  }
+  
+  .new-Smile-prt2-intro-container ul li{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  /* -------------------------------------------------------------------- */
+  
+  .smile-in-hour-video-container{
+    height: 70vh;
+    width: 100%;
+    background: #ebe3da;
+    /* border: 2px solid red; */
+    /* padding-top: 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .smile-in-hour-video-container .smile-in-hour-client-info{
+    /* border: 2px solid blue; */
+    width: 40%;
+    height: 100%;
+  }
+  
+  .smile-in-hour-client-info .smile-in-hour-client-box{
+    height: 33vh;
+    width: 100%;
+    background:#95928f ;
+    border-radius: 20px;
+    margin-top: 19vh;
+  }
+  
+  .smile-in-hour-client-box p{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2vh;
+    letter-spacing: 0.1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .smile-in-hour-client-box h5{
+    text-align: end;
+    margin-right: 5%;
+    margin-top: 3%;
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  .smile-in-hour-client-box .right-quote{
+    text-align: end;
+    margin-top: 2%;
+  }
+  .smile-in-hour-client-box i{
+    font-size: 2.5rem;
+    color: rgb(79, 56, 56);
+  }
+  
+  .smile-in-hour-video-container .smile-in-hour-client-video{
+    /* border: 2px solid blue; */
+    width: 30%;
+    height: 50vh;
+  }
+  
+  .smile-in-hour-client-video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* ------------------------------------------------------------------------------------dentist-client------------------------------------ */
+  
+.people-main-section{
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; */
+  /* background-color: #BEB2A6; */
+  background-color:  #c0b9b2;
+  border: 2px solid transparent;
+}
+
+
+.people-main-section .people-slider-wrapper{
+  overflow: hidden;
+  margin: 0 60x 50px;
+}
+
+
+.people-main-section .people-item {
+  display: flex;
+  /* padding: 35px; */
+  padding-top: 15px;
+  padding-bottom: 50px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4%;
+  /* border: 2px solid black; */
+}
+
+.people-main-section .people-item .people-images{
+  width: 350px;
+  height: 250px;
+  background-size: cover;
+  /* border-radius: 50%; */
+  margin-bottom: 50px;
+  border: 10px solid #f9f2e8;
+}
+
+.people-main-section .swiper-pagination-bullet{
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  margin-bottom: 5%;
+  /* border: 2px solid black; */
+}
+
+ 
+  

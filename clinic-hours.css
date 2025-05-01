@@ -1,0 +1,324 @@
+/* =============================================================clinic-hours-section========================================== */
+
+/* -----------------------------------------------------------------1--------------------------------------------------------- */
+
+.clinic-hours-section{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .clinic-hours-section h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 10%;
+  }
+  
+  .clinic-hours-section h3{
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .clinic-hours-section .clinic-hours-main-container{
+    height: 60vh;
+    max-width: 1550px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .clinic-hours-main-container .clinic-hours-images-container{
+    height: 68vh;
+    width: 50%;
+    padding-top: 3%;
+    /* border: 12px solid blue; */
+  }
+  
+  .clinic-hours-images-container .clinic-hours-img{
+    height: 41vh;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 10%;
+    /* border: 8px solid black; */
+  }
+  
+  /* .den-clinic-img img{
+    height: 100%;
+    width: 100%;
+  } */
+  
+  .clinic-hours-main-container .clinic-hours-intro-container{
+    height: 48vh;
+    width: 50%;
+    /* border: 20px solid green; */
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .clinic-hours-intro-container li{
+    margin-top: 2%;
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    line-height: 2rem;
+  }
+  
+  .clinic-hours-intro-container li span{
+    font-weight:700;
+  }
+  
+  /* ******************************************* */
+  
+  .clinic-hours-images-list{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); */
+    /* border: 2px solid blue; */
+  }
+  
+  .clinic-hours-images-list .clinic-hours-images-list{
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    /* border: 5px solid green; */
+    overflow: hidden;
+  }
+  
+  
+  .clinic-hours-images-list .clinic-hours-images-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    /* border: 8px solid black; */
+  }
+  
+  /* -----------------------------------------------------------------2--------------------------------------------------------- */
+  
+  .clinic-hours-SouthMumbai-section{
+    height: 70vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  /* .clinic-hours-SouthMumbai-section h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 10%;
+  } */
+  
+  .clinic-hours-SouthMumbai-section h3{
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .clinic-hours-SouthMumbai-section .clinic-hours-SouthMumbai-main-container{
+    height: 60vh;
+    max-width: 1550px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .clinic-hours-SouthMumbai-main-container .clinic-hours-SouthMumbai-images-container{
+    height: 68vh;
+    width: 50%;
+    padding-top: 3%;
+    /* border: 12px solid blue; */
+  }
+  
+  .clinic-hours-SouthMumbai-images-container .clinic-hours-SouthMumbai-img{
+    height: 41vh;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 10%;
+    /* border: 8px solid black; */
+  }
+  
+  /* .den-clinic-img img{
+    height: 100%;
+    width: 100%;
+  } */
+  
+  .clinic-hours-SouthMumbai-main-container .clinic-hours-SouthMumbai-intro-container{
+    height: 48vh;
+    width: 50%;
+    /* border: 20px solid green; */
+    padding-top: 12%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .clinic-hours-SouthMumbai-intro-container li{
+    margin-top: 2%;
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    line-height: 2rem;
+  }
+  
+  .clinic-hours-SouthMumbai-intro-container li span{
+    font-weight:700;
+  }
+  
+  /* ******************************************* */
+  
+  .clinic-hours-SouthMumbai-images-list{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); */
+    /* border: 2px solid blue; */
+  }
+  
+  .clinic-hours-SouthMumbai-images-list .clinic-hours-SouthMumbai-images-list{
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    /* border: 5px solid green; */
+    overflow: hidden;
+  }
+  
+  
+  .clinic-hours-SouthMumbai-images-list .clinic-hours-SouthMumbai-images-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    /* border: 8px solid black; */
+  }
+  
+  
+  /* -----------------------------------------------------------------3--------------------------------------------------------- */
+  
+  .clinic-hours-Colaba-section{
+    height: 80vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  /* .clinic-hours-SouthMumbai-section h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 10%;
+  } */
+  
+  .clinic-hours-Colaba-section h3{
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .clinic-hours-Colaba-section .clinic-hours-Colaba-main-container{
+    height: 60vh;
+    max-width: 1550px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .clinic-hours-Colaba-main-container .clinic-hours-Colaba-images-container{
+    height: 68vh;
+    width: 50%;
+    padding-top: 3%;
+    /* border: 12px solid blue; */
+  }
+  
+  .clinic-hours-Colaba-images-container .clinic-hours-Colaba-img{
+    height: 41vh;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 10%;
+    /* border: 8px solid black; */
+  }
+  
+  /* .den-clinic-img img{
+    height: 100%;
+    width: 100%;
+  } */
+  
+  .clinic-hours-Colaba-main-container .clinic-hours-Colaba-intro-container{
+    height: 48vh;
+    width: 50%;
+    /* border: 20px solid green; */
+    padding-top: 12%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .clinic-hours-Colaba-intro-container li{
+    margin-top: 2%;
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    line-height: 2rem;
+  }
+  
+  .clinic-hours-Colaba-intro-container li span{
+    font-weight:700;
+  }
+  
+  /* ******************************************* */
+  
+  .clinic-hours-Colaba-images-list{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); */
+    /* border: 2px solid blue; */
+  }
+  
+  .clinic-hours-Colaba-images-list .clinic-hours-Colaba-images-list{
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    /* border: 5px solid green; */
+    overflow: hidden;
+  }
+  
+  
+  .clinic-hours-Colaba-images-list .clinic-hours-Colaba-images-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    /* border: 8px solid black; */
+  }
+  

@@ -1,0 +1,106 @@
+
+/* =========================================================================infection-control-section========================================================== */
+
+/* --------------------------------------------------------------------1------------------------------------------------------- */
+
+.infection-control-section{
+    height: 140vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .infection-control-section h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 8%;
+  }
+  
+  .infection-control-section .infection-control-container{
+     /* border : 2px solid black; */
+     height: 70vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 2%;
+  }
+  
+  .infection-control-container .infection-control-image-container{
+    /* border : 2px solid blue; */
+    height: 100%;
+    width: 50%;
+  }
+  
+  .infection-control-image-container .infection-control-sub-container{
+    height: 50vh;
+    width: 80%;
+    /* border : 2px solid blue; */
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  
+  .infection-control-sub-container img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .infection-control-container .infection-control-intro-container{
+    /* border : 2px solid magenta; */
+    height: 100%;
+    width: 50%;
+  }
+  
+  .infection-control-intro-container h3{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 2%;
+  }
+  
+  .infection-control-intro-container ul{
+    margin-top: 4%;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 2rem;
+  }
+  
+  .infection-control-intro-container ul li{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  .infection-control-intro-container ul li span{
+    font-weight: 700;
+  }
+  
+  #second-title-infection-control{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 0%;
+  }
+  
+  .infection-control-benefits-content .infection-control-benefit{
+    /* border : 2px solid blue; */
+    margin-top: 2%;
+  }
+  
+  .infection-control-benefit li{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    margin-left: 5%;
+    /* text-align: left; */
+  }
+  
+  
+  

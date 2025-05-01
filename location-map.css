@@ -1,0 +1,50 @@
+/* =========================================================================location-map-main-section=========================================================== */
+
+/* -----------------------------------------------------------------------1----------------------------------------------------------------------------------------- */
+
+.location-map-main-section{
+    height: 180vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .location-map-main-section #location-map-title{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+  }
+  
+  .location-map-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .location-map-container iframe{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .location-map-container .location {
+    margin-bottom: 40px;
+    margin-top: 1%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .location .map-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+  }
+  
+  .location h2 {
+    margin-bottom: 10px;
+    margin-top: -0%;
+  }

@@ -1,0 +1,201 @@
+/* =================================================================================services section================================================================ */
+
+
+/* -------------------------------------------------------------------------------------------1st page--------------------------------------------------------------- */
+
+.services-bg-img-section{
+    height: 90vh;
+    width: 100%;
+    margin-top: 10vh;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .services-main-container{
+    height: 87.9vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+    background-color:  transparent;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .services-text-part{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid blueviolet; */
+  }
+  
+  .services-wrapper{
+    width: 120%;
+    height: 100vh;
+    top:-10%;
+    margin-left: -1%;
+    background: linear-gradient(rgba(0,0,0.7), rgba(0,0,0,0.5)), url(StockCake-Modern\ dental\ office_1736228364.jpg) center no-repeat;
+    background-size: cover;
+    /* box-shadow: 0.1rem 5rem rgba(0, 0, 0, 0.6); */
+    position: relative;
+  }
+  
+  .services-text-part .services-heading{
+    height: 10%;
+    width: 150%;
+    /* border: 2px solid blue; */
+    margin-top: 25%;
+    
+  }
+  
+  .services-heading h3{
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-left: 48%;
+    color: white;
+    font-weight: 500;
+    /* text-align: center; */
+    /* font-family: 'playfair display', serif; */
+    /* font-family: 'sweeth-gothic', sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  .services-text-part .services-sub-heading{
+    /* border: 2px solid rgb(189, 11, 71); */
+    height: 10%;
+    width: 150%;
+    margin-top: 0%;
+  }
+  
+  .services-sub-heading p{
+    font-size: 1.5rem;
+    /* font-family: 'sweeth-gothic', sans-serif; */
+    font-family: 'SangBleu Kingdom Light, Georgia', serif;
+    letter-spacing: 0.1rem;
+    margin-left: 15%;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .services-text-part .contact-btn{
+    margin-top: 2%;
+    height: 3rem;
+    width: 10rem;
+    /* border-radius: 20px; */
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 76%;
+  }
+  
+  .services-text-part .contact-btn a{
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    color: black;
+  }
+  
+  .services-text-part .contact-btn:hover{
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .services-text-part .contact-btn:hover a{
+    color: white;
+  }
+  
+  @media (max-width: 1286px){
+  .services-heading h3{
+    font-size: 2.8rem;
+    margin-top: 25%;
+  }
+  
+  .services-sub-heading p{
+    font-size: 1.8rem;
+    margin-top: 2%;
+  }
+  
+  .services-text-part .contact-btn{
+    margin-top: 5%;
+  }
+  }
+  
+  /* --------------------------------------------------------------------------2nd -------------------------------------------------- */
+  
+  .services-first-page-section{
+    height: 280vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .services-first-page-section h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 5%;
+  }
+  
+  .services-first-page-section .services-first-page-sub-section{
+    height: 270vh;
+    width: 92%;
+    margin-top: 5vh;
+    margin-left: 4%;
+    /* border: 2px solid blue; */
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
+  grid-template-rows: repeat(5, auto); /* Six rows with automatic height */
+  }
+  
+  .services-first-page-sub-section .our-services-first-container{
+    height: 45vh;
+    width: 25vw;
+    /* border: 2px solid red; */
+  }
+  
+  .our-services-first-container .serv-img{
+    height: 30vh;
+    width: 80%;
+    margin-left: 10%;
+    border: 8px solid black;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 2%;
+  }
+  
+  .serv-img img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .our-services-first-container h4{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+  }
+  
+  .our-services-first-container a{
+    /* border: 2px solid blue; */
+    text-align: center;
+    margin-left: 37%;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    color: blue;
+    /* letter-spacing: 0.1rem; */
+  }
+  
+  .our-services-first-container a:hover{
+    color: red;
+  }
+  
+  
+  

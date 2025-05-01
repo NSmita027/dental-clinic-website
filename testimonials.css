@@ -1,0 +1,451 @@
+/* ==========================================================================================================testimonial-patient==================================================================================== */
+
+/* -------------------------------------------------------------------------------------------------------patients-testimonials-section----------------------------------------------------------------------------------- */
+
+.patients-testimonials-section{
+    height: 110vh;
+    width: 100%;
+    background-color: #ebe3da;
+   padding-top: 6%;
+   /* border: 2px solid blue; */
+   /* text-align: center; */
+  }
+  
+  .patients-testimonials-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  
+  .patients-testimonials-wrapper{
+    width: 100%;
+    height: 110%;
+    top:-10%;
+    background: linear-gradient(rgba(0,0,0.5), rgba(0,0,0,0.1)), url(StockCake-Dental\ Clinic\ Interior_1735830181.jpg) center no-repeat;
+    background-size: cover;
+    /* box-shadow: 0.1rem 5rem rgba(0, 0, 0, 0.6); */
+    position: relative;
+  }
+  
+  
+  
+  
+  .patients-testimonials-header{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  /* .patients-testimonials-header h3{
+    font-size: 2rem;
+    color: white;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  .patients-testimonials-header h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+  } */
+  
+  .patients-testimonials-header i{
+    font-size: 2.6rem;
+    color: rgb(255,220,62);
+    margin: 0 0.5rem;
+    margin-top: 10%;
+  }
+  
+  .patients-testimonials{
+    width: 55%;
+    height: 22rem;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    /* border: 0.1rem solid #fff; */
+  }
+  
+  .patients-testimonials-slider{
+    height: 100%;
+    width: 2000%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: 2px solid orangered; */
+    transition: all 0.8s  cubic-bezier(1, 0, 0, 1);
+  }
+
+  #ravichandran, #kunaldasgupta{
+    margin-top: 10%;
+  }
+
+  #ravi-destination, #kunal-dest{
+    margin-top: -5%;
+  }
+  
+  .patients-testimonials-slide{
+    width: 20%;
+    position: relative;
+    /* border: 2px solid blue; */
+  }
+  
+  
+  .slide-bg{
+    width: 80%;
+    height: 85%;
+    background-color: rgb(131, 93, 6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(-6deg);
+    border-radius: 2rem;
+    opacity: 0.7;
+  }
+  
+  .slide-content{
+    width: 70%;
+    height: 85%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+  }
+  
+  .patients-testimonials-slide i{
+    font-size: 4rem;
+    color: rgb(131, 93, 6);
+    position: absolute;
+  }
+  
+  .patients-testimonials-slide i:nth-child(1){
+    top: -5%;
+    left: 3%;
+  }
+  
+  .patients-testimonials-slide i:nth-child(2){
+    bottom: -5%;
+    right: 3%;
+  }
+  
+  .patients-slide-img{
+    width: 15rem;
+    height: 14rem;
+    position: relative;
+   /* border: 2px solid black; */
+  }
+  
+  .patients-slide-img::after,
+  .patients-slide-img::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 0.2rem solid rgba(0, 0, 0, 0.4);
+    border-radius: 3rem 0 3rem 0;
+    z-index: -1;
+  }
+  
+  .patients-slide-img::after{
+    top: -1rem;
+    left: -0.5rem;
+  }
+  
+  .patients-slide-img::before{
+    bottom: -1rem;
+    right: -0.5rem;
+  }
+  
+  .patients-slide-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3rem 0 3rem 0;
+  }
+  
+  .patients-slide-img iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3rem 0 3rem 0;
+  }
+
+  .patients-slide-img video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3rem 0 3rem 0;
+  }
+
+  .patients-slide-img #shilpa-agnihotri{
+    object-position: 50% 82%; 
+  }
+
+  .patients-slide-img #Mushtaq-Khan{
+    object-position: 50% 15%; 
+  }
+  
+  .patients-slide-text{
+    width: 70%;
+    /* border: 2px solid blue; */
+    margin-left: 4%;
+  }
+  
+  .patients-slide-text h3{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    color: #111;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .patients-slide-text p{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(30, 40, 50);
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+  
+  .patients-slide-text .patients-destination{
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(102, 74, 8);
+  }
+  
+  .testimonials-controls i{
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #444;
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .testimonials-controls i:hover{
+    opacity: 0.2;
+  }
+  
+  .testimonials-controls i:nth-child(1){
+    left: 15%;
+  }
+  
+  .testimonials-controls i:nth-child(2){
+    right: 15%;
+  }
+  
+  
+  @media(max-width:1286px){
+    .patients-testimonials-header h3{
+    /* border: 2px solid black; */
+    font-size: 1.8rem;
+    }
+  
+    .patients-testimonials-header h1{
+      font-size: 2.5rem;
+      margin-top: 2%;
+    }
+    
+  }
+  
+  
+   /* ---------------------------------------------------------------------------2------------------------------------------------------------------------------------- */
+  
+   .you-tube-videos-main-section{
+    height: 95vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 6%;
+  }
+  
+  .video-container iframe {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .pagination {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .pagination button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+    opacity: 0.7;
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .you-tube-videos-main-section{
+      height: 90vh;
+    }
+    .video-container iframe{
+        width: 250px /* 3 images per row */
+    }
+  }
+  
+  
+  /* --------------------------------------------------textual testimonial---------------------------------------------------------------- */
+
+  
+.img-sec-testi{
+  height: 100vh;
+  background: #c7c0b9;
+}
+
+.img-sec-testi .img-testi-container h2{
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  padding-top: 5%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  height: 70vh;
+  font-size: 18px;
+  background: #c7c0b9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  /* box-shadow: 2px 2px 5px lightblue; */
+}
+
+.swiper-slide img {
+  width: 6rem;
+  height: 6rem;
+  display: block;
+  border-radius: 50%;
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+  /* border: 2px solid blue; */
+}
+
+
+.swiper-client-msg{
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+  text-align: left;
+  position: relative;
+  width: 35rem;
+  background: rgb(146, 145, 145);
+  box-shadow: 2px 2px 5px #878684;
+  /* border: 2px solid black; */
+}
+
+.swiper-client-msg p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.swiper-client-msg::before{
+  content: "";
+  position: absolute;
+  bottom: -5rem;
+  left: 45%;
+  border: 2.5rem solid white;
+  border-color: transparent;
+  border-top-color: #878684;
+}
+
+
+.swiper-client-msg p::before{
+  content: "\f10d";
+  position: absolute;
+  top: 0;
+  left: 0rem;
+  font-size: 2.5rem;
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  color:  rgb(78, 53, 11);
+}
+
+.swiper-client-msg p::after{
+  content: "\f10e";
+  position: absolute;
+  bottom: 0;
+  right: 0rem;
+  font-size: 2.5rem;
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  color: rgb(78, 53, 11);
+}
+
+.swiper-client-data{
+  align-items: center;
+  display: flex;
+  margin-top: 3.2rem;
+}
+
+.client-data-details{
+  margin-left: 3rem;
+  display: flex;
+}
+
+.client-data-details p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.client-data-details img{
+  height: 50px;
+  width: 70px;
+  object-fit: cover;
+  margin-left: 1rem;
+  /* border: 2px solid brown; */
+}
+
+.swiper-pagination{
+  margin-bottom: 15rem;
+}

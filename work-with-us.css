@@ -1,0 +1,89 @@
+/* ============================================================work-with-us-main-section======================================= */
+
+/* ----------------------------------------------------------------------1-------------------------------------------------- */
+
+.work-with-us-main-section{
+    height: 130vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .work-with-us-main-section h2{
+    text-align: center;
+    /* margin-left: 13%; */
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 10%;
+  }
+  
+  .work-with-us-container {
+    width: 90%;
+    margin: 50px auto;
+    /* background-color: white; */
+    padding: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+    border: 20px;
+    
+  }
+  
+  .work-with-us-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .work-with-us-container form label {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 10%;
+  }
+  
+  #phn{
+    margin-left: 10%;
+  }
+  
+  #wo-ex{
+    margin-left: 10%;
+  }
+  
+  #gen{
+    margin-left: 10%;
+  }
+  
+  #sa-ex, #cu-ph{
+    margin-left: 10%;
+  }
+  
+  .work-with-us-container form input, .work-with-us-container form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 10%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+  }
+  
+  .work-with-us-container form textarea {
+    resize: vertical;
+  }
+  
+  .work-with-us-container form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 6vw;
+    margin-left: 10%;
+  }
+  
+  .work-with-us-container form button:hover {
+    background-color: #cc5200;
+  }
+  
+  

@@ -1,0 +1,226 @@
+/* ====================================================facilities-clinic-1st-section======================================== */
+
+/* ---------------------------------------------------facilities-clinic-1st-section----------------------------------------- */
+
+.facilities-clinic-1st-section{
+    height: 150vh;
+    width: 100%;
+    background-color: #ebe3da;
+    border: 2px solid transparent;
+  }
+  
+  .facilities-clinic-1st-section h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 8%;
+  }
+  
+  .facilities-clinic-1st-section h3{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 2%;
+  }
+  
+  .facilities-clinic-1st-section .fac-lists-img-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border : 2px solid blue; */
+  }
+  
+  .fac-lists-img-cont .facilities-clinic-1st-container{
+    /* border : 2px solid blue; */
+    margin-top: 5%;
+  }
+  
+  .facilities-clinic-1st-container .facilities-list-container{
+    /* border : 2px solid blue; */
+    margin-top: 2%;
+  }
+  
+  .facilities-list-container li{
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    margin-left: 5%;
+    /* text-align: left; */
+  }
+  
+  .fac-lists-img-cont .fac-img-cont{
+    height: 100vh;
+    width: 30vw;
+    /* border : 2px solid blueviolet; */
+  }
+  
+  .fac-img-cont .fac-img-child,
+  .fac-img-cont .fac-img-young,
+  .fac-img-cont .fac-img-old{
+    height: 25vh;
+    width: 25vw;
+    /* border : 2px solid blueviolet; */
+    margin-top: 18%;
+  }
+  
+  .fac-img-child img, .fac-img-young img, .fac-img-old img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* -----------------------------------------------------------------facilities-clinic-2nd-section--------------------------------------------------- */
+  
+  .facilities-clinic-2nd-section{
+    height: 120vh;
+    width: 100%;
+    background-color: #ebe3da;
+    border: 2px solid transparent;
+  }
+  
+  .facilities-clinic-2nd-section h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 5%;
+  }
+  
+  .facilities-clinic-2nd-section .fac-benefits-container{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+  }
+  
+  .facilities-clinic-2nd-section .facilities-paragraph-container{
+    height: 105vh;
+    width: 100%;
+    margin-top: .5vh;
+    /* border: 2px solid brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+  }
+  
+  .facilities-img-container{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid blue; */
+  }
+  
+  .facilities-img-sub-container{
+    height: 80vh;
+    margin-top: 7.5vh;
+    width: 70%;
+    margin-left: 15%;
+    /* border: 2px solid green; */
+  }
+  
+  .facilities-img-sub-container .facilities-sample{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .facilities-text-container{
+    width: 45%;
+    height: 80%;
+    /* border: 2px solid green; */
+    padding-top: 10%;
+  }
+  
+  .accordion {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 10px;
+    height: 60%;
+    background-color: #ebe3da ;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    /* border: 2px solid blue; */
+    margin-top: 2%;
+    margin-right: 0%;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .accordion-item {
+     /* border-bottom: 1px solid #ddd; */
+     /* border: 2px solid black; */
+     margin-bottom: 5%;
+     /* padding: 3%; */
+     /* height: 15%; */
+     /* gap: 10%;  */
+  }
+  
+  .accordion-item:last-child {
+    border-bottom: none;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: -3%;
+    border: 2px solid transparent;
+    background-color: #dad3cd;
+  }
+  
+  .accordion-header:hover {
+    background-color: #6e6b69;
+  }
+  
+  .accordion-header span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    font-weight: lighter;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+    background-color: #ebe3da;
+    z-index: 1000;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+  }
+  
+  .accordion-content.open {
+    max-height: 500px; /* Ensure it's enough to fit your content */
+    padding: 15px 20px;
+    display: block;
+  }
+  
+  .accordion-content p {
+    margin: 10px 0;
+    color: black;
+    letter-spacing: 0.1rem;
+  }
+  
+  .toggle-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    margin-right: 3%;
+  }
+  
+  .toggle-btn:focus {
+    /* outline: 2px solid #aaa; */
+  }
+  

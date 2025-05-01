@@ -1,0 +1,144 @@
+/* ===========================================================dental-tourism-section========================================= */
+
+/* -------------------------------------------------------------------1------------------------------------------------------- */
+
+.dental-tourism-section{
+    height: 155vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .dental-tourism-section h2{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 8%;
+  }
+  
+  .dental-tourism-section h3{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 2%;
+  }
+  
+  .dental-tourism-section h4{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 2%;
+  }
+  
+  .dental-tourism-section p{
+    width: 90%;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 2%;
+  }
+  
+  /* .dentists-clinic-main-container .dentists-clinic-images-container{
+    height: 68vh;
+    width: 50%;
+    padding-top: 12%;
+    border: 12px solid blue;
+  }
+  
+  .dentists-clinic-images-container .den-clinic-img{
+    height: 41vh;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 10%;
+    border: 8px solid black;
+  } */
+  
+  .dental-tourism-section .dental-tourism-images-container{
+    height: 34vh;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 3%;
+    padding-top: 12%;
+    /* border: 12px solid blue; */
+  }
+  
+  .dental-tourism-images-container .dental-tourism-img{
+    height: 41vh;
+    width: 100%;
+    /* margin-left: 12.5%; */
+    margin-top: -25%;
+    /* border: 8px solid black; */
+  }
+  
+  .dental-tourism-images-container img{
+    height: 90%;
+    width: 90%;
+    /* border: 8px solid black; */
+    background-size: cover;
+  }
+  
+
+   /* ------------------------------------------------------------------------------------dentist-client------------------------------------ */
+  
+   .people-main-section{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; */
+    /* background-color: #BEB2A6; */
+    background-color:  #c0b9b2;
+    border: 2px solid transparent;
+  }
+  
+  
+  .people-main-section .people-slider-wrapper{
+    overflow: hidden;
+    margin: 0 60x 50px;
+  }
+  
+  
+  .people-main-section .people-item {
+    display: flex;
+    /* padding: 35px; */
+    padding-top: 15px;
+    padding-bottom: 50px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+    /* border: 2px solid black; */
+  }
+  
+  .people-main-section .people-item .people-images{
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    /* border-radius: 50%; */
+    margin-bottom: 50px;
+    border: 10px solid #f9f2e8;
+  }
+  
+  .people-main-section .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    margin-bottom: 5%;
+    /* border: 2px solid black; */
+  }
+  
+ 

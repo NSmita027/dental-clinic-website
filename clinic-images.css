@@ -1,0 +1,79 @@
+/* =========================================================images-of-clinic-main-section============================================= */
+
+.images-of-clinic-main-section{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .images-of-clinic-main-section h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 10%;
+  }
+  
+  .clinic-images-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .clinic-images-container img{
+    width: 300px;
+    height: 200px;
+  }
+  
+  .clinicimagespagination{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .clinicimagespagination button{
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+  }
+  
+  .clinicimagespagination button:hover{
+    background-color: #0056b3;
+    opacity: 0.7;
+  }
+  
+  .clinicimagespagination button.active {
+    background-color: #0056b3;
+  }
+  
+  /* For screens less than 1200px wide */
+  @media screen and (max-width: 1300px) {
+    .images-of-clinic-main-section{
+      height: 100vh;
+    }
+    .clinic-images-container img {
+        width: 250px /* 3 images per row */
+    }
+  }
+  
+  /* For screens less than 768px wide */
+  @media screen and (max-width: 768px) {
+    .clinic-images-container img {
+        width: calc(50% - 40px); /* 2 images per row */
+    }
+  }
+  
+  /* For screens less than 480px wide */
+  @media screen and (max-width: 480px) {
+    .clinic-images-container img {
+        width: 100%; /* 1 image per row */
+    }
+  }
+  

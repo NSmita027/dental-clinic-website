@@ -1,0 +1,64 @@
+/* ====================================================================free-pickup-main-section==================================================== */
+
+/* -------------------------------------------------------1---------------------------------------------------------------- */
+
+.free-pickup-main-section{
+    height: 150vh;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #ebe3da;
+  }
+  
+  .free-pickup-main-section h2{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 10%;
+  }
+  
+  .free-pickup-main-section p{
+    width: 90%;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 2%;
+  }
+  
+  .free-pickup-main-section #second-title-free-pickup{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 2%;
+  }
+  
+  .free-pickup-main-section .hotels-container{
+    /* border: 2px solid black; */
+    height: 60vh;
+  }
+  
+  .hotels-container ul{
+    /* border: 2px solid blue; */
+    width: 62%;
+    padding-left: 2%;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-top: 2%;
+    line-height: 2.5rem;
+  }
+  
+  .free-pickup-main-section #second-para-free-pickup{
+    margin-top: -1%;
+  }

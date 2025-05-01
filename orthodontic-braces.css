@@ -264,7 +264,7 @@
   /* ----------------------------------------------------------benefits---------------------------------------------------------- */
 
   .orthodontic-benefits{
-    height: 45ch;
+    height: 40vh;
     width: 100%;
     background-color: #dad3cd;
   }
@@ -289,11 +289,44 @@
     margin-left: 5%;
   }
 
+  /* -------------------------------------------------------------gum-bef-af-images------------------------------------------------- */
+
+  .gum-bef-af-images{
+    height: 65vh;
+    width: 100%;
+    background-color: #dad3cd;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .gum-bef-cont{
+    height: 40vh;
+    width: 18vw;
+  }
+
+  .gum-bef-cont img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .gum-af-cont{
+    height: 40vh;
+    width: 18vw;
+  }
+
+  .gum-af-cont img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
 
    /* ----------------------------------------------------------treatments---------------------------------------------------------- */
 
    .orthodontic-treatments{
-    height: 45ch;
+    height: 40vh;
     width: 100%;
     background-color: #dad3cd;
   }
@@ -318,11 +351,45 @@
     margin-left: 5%;
   }
 
+   /* -------------------------------------------------------------gum-bef-af-images------------------------------------------------- */
+
+   .gum-bef-af-second-images{
+    height: 65vh;
+    width: 100%;
+    background-color: #dad3cd;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .gum-bef-second-cont{
+    height: 30vh;
+    width: 25vw;
+  }
+
+  .gum-bef-second-cont img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .gum-af-second-cont{
+    height: 30vh;
+    width: 25vw;
+  }
+
+  .gum-af-second-cont img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
 
   /* -----------------------------------------------------------Considerations---------------------------------------------------------- */
 
   .orthodontic-Considerations{
-    height: 45ch;
+    height: 50vh;
     width: 100%;
     background-color: #dad3cd;
   }
@@ -574,7 +641,7 @@
 /* ----------------------------------------------------------benefits---------------------------------------------------------- */
 
 .teeth-benefits{
-  height: 45ch;
+  height: 55vh;
   width: 100%;
   background-color: #dad3cd;
 }
@@ -603,7 +670,7 @@
  /* ----------------------------------------------------------teeth-aligners-work--------------------------------------------------------- */
 
  .teeth-aligners-work{
-  height: 45ch;
+  height: 50vh;
   width: 100%;
   background-color: #dad3cd;
 }
@@ -632,7 +699,7 @@
 /* -----------------------------------------------------------Considerations---------------------------------------------------------- */
 
 .teeth-aligners-Considerations{
-  height: 45ch;
+  height: 55vh;
   width: 100%;
   background-color: #dad3cd;
 }

@@ -196,10 +196,28 @@
     margin-left: 88%;
   }
   
+  .whatsapp-no{
+    height: 4vh;
+    width: auto;
+    /* border: 3px solid black; */
+    padding: 0 15px;
+    margin-top: 3.2%;
+    position: absolute;
+    position: fixed;
+    background: transparent;
+    z-index: 1000;
+    margin-left: 84%;
+  }
+
   .phn-no a{
     text-decoration: none;
     color: black;
     letter-spacing: 0.1rem;
+  }
+
+  .whatsapp-no a{
+    font-size: 2rem;
+    color: green;
   }
   
   .phn-no:hover{

@@ -249,6 +249,74 @@
   margin-left: 15%;
 }
 
+/* -------------------------------------------------------------gum-bef-af-images------------------------------------------------- */
+
+.gum-bef-af-images{
+  height: 65vh;
+  width: 100%;
+  background-color: #c8c2bd;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.gum-bef-cont{
+  height: 40vh;
+  width: 18vw;
+}
+
+.gum-bef-cont img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gum-af-cont{
+  height: 40vh;
+  width: 18vw;
+}
+
+.gum-af-cont img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* -------------------------------------------------------------gum-bef-af-images------------------------------------------------- */
+
+.gum-bef-af-second-images{
+  height: 65vh;
+  width: 100%;
+  background-color: #c8c2bd;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.gum-bef-second-cont{
+  height: 30vh;
+  width: 25vw;
+}
+
+.gum-bef-second-cont img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gum-af-second-cont{
+  height: 30vh;
+  width: 25vw;
+}
+
+.gum-af-second-cont img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
 
 /* ----------------------------------------------------------benefits---------------------------------------------------------- */
 

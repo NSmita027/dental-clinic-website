@@ -201,12 +201,12 @@
     width: auto;
     /* border: 3px solid black; */
     padding: 0 15px;
-    margin-top: 3.2%;
+    margin-top: 40.2%;
     position: absolute;
     position: fixed;
     background: transparent;
     z-index: 1000;
-    margin-left: 84%;
+    margin-left: 94%;
   }
 
   .phn-no a{
@@ -216,7 +216,7 @@
   }
 
   .whatsapp-no a{
-    font-size: 2rem;
+    font-size: 3.5rem;
     color: green;
   }
   
@@ -224,6 +224,10 @@
     background: #000;
     /* transform: rotate(3deg); */
   
+  }
+
+  .whatsapp-no:hover a{
+    color: black;
   }
   
   .phn-no:hover a{

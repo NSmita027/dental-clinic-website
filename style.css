@@ -62,7 +62,7 @@
   /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
 }
 
-.index-slide .contact-btn{
+.index-slide button{
   position: absolute;
   bottom: 37%;
   right: 72%;
@@ -73,19 +73,19 @@
   background-color: transparent;
 }
 
-.index-slide .contact-btn a{
+.index-slide button{
   text-decoration: none;
   color: black;
   font-size: 1rem;
   letter-spacing: 0.2rem;
 }
 
-.index-slide .contact-btn:hover{
+.index-slide button:hover{
   background-color: black;
   cursor: pointer;
 }
 
-.index-slide .contact-btn:hover a{
+.index-slide a:hover button{
   color: white;
 }
 
@@ -1899,7 +1899,7 @@
     margin-left: 45%;
   }
 
-  .view-more-btn a{
+  #view-more-btn button{
     text-decoration: none;
     font-size: 1rem;
     letter-spacing: 0.2rem;
@@ -1911,7 +1911,7 @@
     cursor: pointer;
   }
 
-  .view-more-btn:hover a{
+  #view-more-btn:hover button{
     color: white;
   }
 
@@ -2243,7 +2243,7 @@
   background-color: transparent;
 }
 
-.cos-dentistry-btn a{
+.cos-dentistry-link a .cos-dentistry-btn {
   text-decoration: none;
   font-size: 1rem;
   letter-spacing: 0.2rem;
@@ -2255,7 +2255,7 @@
   cursor: pointer;
 }
 
-.cos-dentistry-btn:hover a{
+#cos-contact-btn:hover button{
   color: white;
 }
 /* Responsive Layout */
@@ -2447,7 +2447,7 @@
   background-color: transparent;
 }
 
-.gen-dentistry-btn a{
+.gen-dentistry-btn {
   text-decoration: none;
   font-size: 1rem;
   letter-spacing: 0.2rem;
@@ -2459,9 +2459,12 @@
   cursor: pointer;
 }
 
-.gen-dentistry-btn:hover a{
+#gen-contact-btn:hover button{
   color: white;
 }
+
+
+
 /* Responsive Layout */
 @media (max-width:500px) and (min-width:400px) {
   .general-dentistry-home-pg-section{
@@ -2652,7 +2655,7 @@
   background-color: transparent;
 }
 
-.tw-dentistry-btn a{
+.tw-dentistry-btn{
   text-decoration: none;
   font-size: 1rem;
   letter-spacing: 0.2rem;
@@ -2664,7 +2667,7 @@
   cursor: pointer;
 }
 
-.tw-dentistry-btn:hover a{
+#tw-contact-btn:hover button{
   color: white;
 }
 /* Responsive Layout */
@@ -2856,7 +2859,7 @@
   background-color: transparent;
 }
 
-.di-dentistry-btn a{
+.di-dentistry-btn{
   text-decoration: none;
   font-size: 1rem;
   letter-spacing: 0.2rem;
@@ -2868,7 +2871,7 @@
   cursor: pointer;
 }
 
-.di-dentistry-btn:hover a{
+#di-contact-btn:hover button{
   color: white;
 }
 /* Responsive Layout */

@@ -1,3 +1,10 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
 .gum-treatment-main-section{
     height: 100vh;
     width: 100%;
@@ -76,7 +83,7 @@
     width: 90%;
     margin-left: 5%;
   }
-  
+
   .gum-treatment-subsection-text-part .contact-btn{
     margin-top: -20% ;
     height: 2.5rem;
@@ -86,25 +93,24 @@
     background-color: white;
     margin-left: 5%;
   }
-  
-  .gum-treatment-subsection-text-part .contact-btn a{
+
+  .gum-treatment-subsection-text-part .contact-btn{
     text-decoration: none;
     font-size: 0.9rem;
     letter-spacing: 0.2rem;
     color: black;
   }
-  
+
   .gum-treatment-subsection-text-part .contact-btn:hover{
     background-color: black;
     cursor: pointer;
     border: 2px solid transparent;
   }
   
-  .gum-treatment-subsection-text-part .contact-btn:hover a{
+  .gum-treatment-subsection-text-part a:hover button{
     color: white;
-  }
-
-
+  } 
+  
 
   /* ********************************************************************gum-treatment-procedure******************************************************* */
 

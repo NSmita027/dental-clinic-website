@@ -183,56 +183,6 @@
     border-bottom: 2px solid #d4a373; /* Optional underline */
   }
   
-  .phn-no{
-    height: 5vh;
-    width: auto;
-    border: 3px solid black;
-    padding: 0 15px;
-    margin-top: 3%;
-    position: absolute;
-    position: fixed;
-    background: transparent;
-    z-index: 1000;
-    margin-left: 88%;
-  }
-  
-  .whatsapp-no{
-    height: 4vh;
-    width: auto;
-    /* border: 3px solid black; */
-    padding: 0 15px;
-    margin-top: 40.2%;
-    position: absolute;
-    position: fixed;
-    background: transparent;
-    z-index: 1000;
-    margin-left: 94%;
-  }
-
-  .phn-no a{
-    text-decoration: none;
-    color: black;
-    letter-spacing: 0.1rem;
-  }
-
-  .whatsapp-no a{
-    font-size: 3.5rem;
-    color: green;
-  }
-  
-  .phn-no:hover{
-    background: #000;
-    /* transform: rotate(3deg); */
-  
-  }
-
-  .whatsapp-no:hover a{
-    color: black;
-  }
-  
-  .phn-no:hover a{
-    color: white;
-  }
   
   /* ******************************************** */
   

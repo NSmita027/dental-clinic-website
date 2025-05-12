@@ -1,11 +1,17 @@
 /* =======================================================================dental-implants-page======================================================================= */
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 
 /* ==============================================================================-1st-page-=========================================================================== */
 
 .dental-implants-section{
     height: 90vh;
     width: 100%;
-    margin-top: 7vh;
+    margin-top: 9vh;
     /* border: 2px solid transparent; */
     background-color:  #c0b9b2;
   }
@@ -37,18 +43,6 @@
     position: relative;
   }
   
-  /* .dental-implants-img-part{
-    height: 100%;
-    width: 40%;
-    border: 2px solid blueviolet;
-  }
-  
-  .dental-implants-img-part .img-dental-implant1{
-    height: 70%;
-    width: 85%;
-    margin-top: 20%;
-    background-size: cover;
-  } */
   
   .dental-implants-text-part .dental-implants-heading{
     height: 10%;
@@ -87,49 +81,35 @@
     color: white;
     font-weight: 500;
   }
-  
+
   .dental-implants-text-part .contact-btn{
-    margin-top: 2% !important;
     height: 2.5rem;
     width: 9.5rem;
-    /* border-radius: 20px; */
     border: 1px solid white;
     background-color: white;
     margin-left: 70%;
+    margin-top: 2%;
   }
-  
-  .dental-implants-text-part .contact-btn a{
+
+  .dental-implants-text-part .contact-btn{
     text-decoration: none;
     font-size: 0.9rem;
     letter-spacing: 0.2rem;
     color: black;
   }
-  
+
   .dental-implants-text-part .contact-btn:hover{
     background-color: black;
     cursor: pointer;
     border: 2px solid transparent;
   }
   
-  .dental-implants-text-part .contact-btn:hover a{
+  .dental-implants-text-part a:hover button{
     color: white;
-  }
+  } 
   
-  @media (max-width: 1286px){
-  .dental-implants-heading h3{
-    font-size: 2.8rem;
-    margin-top: 25%;
-  }
+ 
   
-  .dental-implants-sub-heading p{
-    font-size: 1.8rem;
-    margin-top: 2%;
-  }
-  
-  .dental-implants-text-part .contact-btn{
-    margin-top: 5%;
-  }
-  }
   
   /* ===========================================================================2nd page=============================================================================== */
   

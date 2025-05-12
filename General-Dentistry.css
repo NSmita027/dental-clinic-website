@@ -1,4 +1,9 @@
 /* ========================================================================general-dentistry page================================================================================ */
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
 
 
 /* ------------------------------------------------------------------------------------------1st page------------------------------------------------------------------------------------- */
@@ -77,49 +82,33 @@
     color: white;
     font-weight: 500;
   }
-  
+
   .general-dentistry-text-part .contact-btn{
-    margin-top: 2% !important;
     height: 2.5rem;
     width: 9.5rem;
-    /* border-radius: 20px; */
     border: 1px solid white;
     background-color: white;
-    margin-left: 75%;
+    margin-left: 70%;
+    margin-top: 2%;
   }
-  
-  .general-dentistry-text-part .contact-btn a{
+
+  .general-dentistry-text-part .contact-btn{
     text-decoration: none;
     font-size: 0.9rem;
     letter-spacing: 0.2rem;
     color: black;
   }
-  
+
   .general-dentistry-text-part .contact-btn:hover{
     background-color: black;
     cursor: pointer;
     border: 2px solid transparent;
   }
   
-  .general-dentistry-text-part .contact-btn:hover a{
+  .general-dentistry-text-part a:hover button{
     color: white;
-  }
+  } 
   
-  @media (max-width: 1286px){
-  .general-dentistry-heading h3{
-    font-size: 2.8rem;
-    margin-top: 25%;
-  }
-  
-  .general-dentistry-sub-heading p{
-    font-size: 1.8rem;
-    margin-top: 2%;
-  }
-  
-  .general-dentistry-text-part .contact-btn{
-    margin-top: 5%;
-  }
-  }
   
   /* -----------------------------------------------------------------------2nd page-------------------------------------------------------------------- */
   

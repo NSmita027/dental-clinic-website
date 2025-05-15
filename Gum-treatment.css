@@ -304,22 +304,16 @@ body{
   height: 7vh;
   width: auto;
   padding: 8px 20px 8px 20px;
-  border: 2px solid black;
-  border-radius: 20px;
-  background: #000;
-  color: white;
-  margin-left: 19vw;
+  color: black;
+  margin-left: 24vw;
 }
 
 .bef-af-text-section .af-text{
   height: 7vh;
   width: auto;
   padding: 8px 20px 8px 20px;
-  border: 2px solid black;
-  border-radius: 20px;
-  background: #000;
-  color: white;
-  margin-left: 18vw;
+  color: black;
+  margin-left: 30vw;
 }
 
 .bef-text h2, .af-text h2{

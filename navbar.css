@@ -17,7 +17,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.75rem 1.5rem;
+  /* padding: 0.75rem 1.5rem; */
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -26,12 +26,10 @@ header {
 .nav-logo {
   display: flex;
   align-items: center;
-  width: 80;
-  height: 150;
 }
-.nav-logo .logo {
-  image: url(Kadali-Dental-1472.png);
-  
+.nav-logo .logo img{
+  width: 150px;
+  height: 80px;
   margin-right: 0.75rem;
 }
 .clinic-centers p {
@@ -103,9 +101,9 @@ header {
   position: fixed;
   bottom: 1.5rem;
   right: 1.5rem;
-  background: #f8e7b9;
-  border: none;
-  border-radius: 50px;
+  background: transparent;
+  border: 3px solid black;
+  z-index: 1000;
   padding: 0.75rem 1rem;
   font-size: 0.95rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
@@ -115,11 +113,19 @@ header {
   text-decoration: none;
   color: #000;
   display: flex;
+  letter-spacing: 0.1rem;
   align-items: center;
 }
 .phn-no a i {
   margin-right: 0.5rem;
 }
+.phn-no:hover {
+  background-color: black;
+}
+.phn-no:hover a {
+  color: white;
+}
+
 
 /* Mobile/Tablet */
 @media (max-width: 992px) {

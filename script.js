@@ -73,104 +73,165 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // ====================== HOMEPAGE SLIDESHOW ======================
   if (document.querySelector('.index-slide')) {
-    let indexCurrentSlide = 0;
-    const indexSlides = document.querySelectorAll('.index-slide');
-
-    function indexShowSlide(index) {
-      indexSlides.forEach((slide) => {
-        slide.classList.remove('active');
+    
+      const slides = document.querySelectorAll('.index-slide');
+      let currentSlide = 0;
+      const slideInterval = 5000; // Change slide every 5 seconds
+      
+      // Hide all slides except the first one
+      slides.forEach((slide, index) => {
+          if (index !== 0) {
+              slide.style.opacity = '0';
+          }
       });
-      indexSlides[index].classList.add('active');
-    }
+      
+      // Function to move to the next slide
+      function nextSlide() {
+          // Hide current slide
+          slides[currentSlide].style.opacity = '0';
+          
+          // Move to next slide or back to first slide
+          currentSlide = (currentSlide + 1) % slides.length;
+          
+          // Show new current slide
+          slides[currentSlide].style.opacity = '1';
+      }
+      
+      // Start the slideshow
+      setInterval(nextSlide, slideInterval);
 
-    function indexStartSlideshow() {
-      setInterval(() => {
-        indexCurrentSlide = (indexCurrentSlide + 1) % indexSlides.length;
-        indexShowSlide(indexCurrentSlide);
-      }, 6000);
-    }
-
-    indexShowSlide(indexCurrentSlide);
-    indexStartSlideshow();
   }
 
   // ====================== TESTIMONIALS SLIDER ======================
   if (document.querySelector('.celeb-img-vid-container')) {
-    const celebSlides = document.querySelectorAll('.celeb-img-vid-container');
-    const videos = document.querySelectorAll('video');
-    let counter = 0;
-    const totalSlides = celebSlides.length;
-    let autoSlideInterval;
-    let isVideoPlaying = false;
-
-    celebSlides.forEach((celebSlide, index) => {
-      celebSlide.style.left = `${index * 100}%`;
-    });
-
-    function slideclip() {
-      if (!isVideoPlaying) {
-        celebSlides.forEach(celebSlide => {
-          celebSlide.style.transform = `translateX(-${counter * 100}%)`;
-        });
-      }
-    }
-
-    const nextbutton = () => {
-      if (!isVideoPlaying) {
-        counter = (counter + 1) % totalSlides;
-        slideclip();
-        resetAutoSlide();
-      }
-    };
-
-    const prevbutton = () => {
-      if (!isVideoPlaying) {
-        counter = (counter - 1 + totalSlides) % totalSlides;
-        slideclip();
-        resetAutoSlide();
-      }
-    };
-
-    function startAutoSlide() {
-      if (!isVideoPlaying) {
-        autoSlideInterval = setInterval(() => {
-          nextbutton();
-        }, 5000);
-      }
-    }
-
-    function stopAutoSlide() {
-      clearInterval(autoSlideInterval);
-    }
-
-    function resetAutoSlide() {
-      stopAutoSlide();
-      startAutoSlide();
-    }
-
-    document.querySelectorAll('.celeb-img-vid-container').forEach(element => {
-      element.addEventListener('mouseenter', stopAutoSlide);
-      element.addEventListener('mouseleave', startAutoSlide);
-    });
-
+    
+    const slider = document.querySelector('.celeb-slider');
+    const testimonials = document.querySelectorAll('.celeb-img-vid-container');
+    let currentIndex = 0;
+    const totalItems = testimonials.length;
+    
+    // Initialize videos to pause when not in view
+    const videos = document.querySelectorAll('.celeb-video video');
     videos.forEach(video => {
-      video.addEventListener('play', () => {
-        isVideoPlaying = true;
-        stopAutoSlide();
-      });
-
-      video.addEventListener('pause', () => {
-        isVideoPlaying = false;
-        startAutoSlide();
-      });
-
-      video.addEventListener('ended', () => {
-        isVideoPlaying = false;
-        startAutoSlide();
-      });
+        video.pause();
     });
+    
+    // Function to display specific slide
+    function goToSlide(index) {
+        // Ensure index is within bounds
+        if (index < 0) {
+            index = totalItems - 1;
+        } else if (index >= totalItems) {
+            index = 0;
+        }
+        
+        // Pause all videos
+        videos.forEach(video => {
+            video.pause();
+        });
+        
+        // Calculate position to scroll to
+        const slideWidth = testimonials[0].offsetWidth;
+        slider.scrollLeft = index * slideWidth;
+        
+        // Update current index
+        currentIndex = index;
+        
+        // Auto-play video if current slide has one
+        const currentSlide = testimonials[currentIndex];
+        const currentVideo = currentSlide.querySelector('video');
+        if (currentVideo) {
+            // Small timeout to ensure scroll is complete before playing
+            setTimeout(() => {
+                currentVideo.play().catch(e => {
+                    console.log("Auto-play prevented by browser. User must interact first.");
+                });
+            }, 300);
+        }
+    }
+    
+    // Next button function
+    window.nextbutton = function() {
+        goToSlide(currentIndex + 1);
+    };
+    
+    // Previous button function
+    window.prevbutton = function() {
+        goToSlide(currentIndex - 1);
+    };
+    
+    // Auto-advance the slider every 8 seconds
+    const autoSlideInterval = setInterval(() => {
+        nextbutton();
+    }, 8000);
+    
+    // Stop auto-advance when user interacts with the slider
+    slider.addEventListener('click', () => {
+        clearInterval(autoSlideInterval);
+    });
+    
+    // Handle swipe gestures for mobile
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
+    slider.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+    }, false);
+    
+    slider.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }, false);
+    
+    function handleSwipe() {
+        if (touchEndX < touchStartX - 50) {
+            // Swipe left - show next slide
+            nextbutton();
+        } else if (touchEndX > touchStartX + 50) {
+            // Swipe right - show previous slide
+            prevbutton();
+        }
+    }
+    
+    // Handle keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') {
+            nextbutton();
+        } else if (e.key === 'ArrowLeft') {
+            prevbutton();
+        }
+    });
+    
+    // Optional: Handle scroll on slider to detect when a new slide comes into view
+    slider.addEventListener('scroll', () => {
+        const scrollPosition = slider.scrollLeft;
+        const slideWidth = testimonials[0].offsetWidth;
+        const newIndex = Math.round(scrollPosition / slideWidth);
+        
+        if (newIndex !== currentIndex) {
+            currentIndex = newIndex;
+            
+            // Pause all videos
+            videos.forEach(video => {
+                video.pause();
+            });
+            
+            // Auto-play video if current slide has one
+            const currentSlide = testimonials[currentIndex];
+            const currentVideo = currentSlide.querySelector('video');
+            if (currentVideo) {
+                setTimeout(() => {
+                    currentVideo.play().catch(e => {
+                        console.log("Auto-play prevented by browser. User must interact first.");
+                    });
+                }, 300);
+            }
+        }
+    });
+    
+    // Initialize first slide
+    goToSlide(0);
 
-    startAutoSlide();
   }
 
   // ====================== BEFORE/AFTER SLIDERS ======================

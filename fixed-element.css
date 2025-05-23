@@ -1,0 +1,52 @@
+.phn-no{
+    height: 5vh;
+    width: auto;
+    border: 3px solid blue;
+    padding: 0 15px;
+    margin-top: 8.5%;
+    position: absolute;
+    position: fixed;
+    background: blue;
+    z-index: 1000;
+    margin-left: 88%;
+  }
+  
+  .whatsapp-no{
+    height: 4vh;
+    width: auto;
+    /* border: 3px solid black; */
+    padding: 0 15px;
+    margin-top: 43.2%;
+    position: absolute;
+    position: fixed;
+    background: transparent;
+    z-index: 1000;
+    margin-left: 94%;
+  }
+
+  #contact-btn button{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.1rem;
+  }
+
+  .whatsapp-no a{
+    font-size: 3.5rem;
+    color: green;
+  }
+
+  
+  button:hover{
+    background: #000;
+    cursor: pointer;
+    border: 3px solid black;
+  }
+
+  .whatsapp-no:hover a{
+    color: black;
+  }
+  
+  #contact-btn:hover button{
+    color: white;
+  }
+  

@@ -1,4 +1,9 @@
 /* =================================================================================services section================================================================ */
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
 
 
 /* -------------------------------------------------------------------------------------------1st page--------------------------------------------------------------- */
@@ -77,6 +82,32 @@
     font-weight: 500;
     text-align: center;
   }
+
+  .services-text-part .contact-btn{
+    height: 2.5rem;
+    width: 9.5rem;
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 70%;
+    margin-top: 2%;
+  }
+
+  .services-text-part .contact-btn{
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    color: black;
+  }
+
+  .services-text-part .contact-btn:hover{
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .services-text-part a:hover button{
+    color: white;
+  } 
   
   .services-text-part .contact-btn{
     margin-top: 2%;

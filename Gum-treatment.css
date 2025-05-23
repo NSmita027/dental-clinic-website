@@ -1,0 +1,397 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+.gum-treatment-main-section{
+    height: 100vh;
+    width: 100%;
+    margin-top: 7vh;
+    /* border: 2px solid transparent; */
+    background-color:  #c0b9b2;
+  }
+  
+  .gum-treatment-subsection{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+    background-color:  #c0b9b2;
+    margin-top: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gum-treatment-subsection-text-part{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid blueviolet; */
+  }
+  
+  .gum-treatment-subsection-text-part .gum-treatment-bg{
+    height: 60vh;
+    width: 70%;
+    border: 2px solid transparent;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), center no-repeat;
+    margin-top: 20%;
+    margin-left: 5%;
+    padding-top: -10%;
+  }
+  
+  .gum-treatment-wrapper{
+    width: 100%;
+    height: 100vh;
+    top:0%;
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.1)), url(gum-treatment-bg.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .gum-treatment-subsection-text-part .gum-treatment-title{
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 8%;
+  }
+  
+  .gum-treatment-title h3{
+    font-size: 2rem !important;
+    font-weight: normal;
+    margin-left: 5%;
+    color: white;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  .gum-treatment-subsection-text-part .gum-treatment-sub-title{
+    /* border: 2px solid rgb(189, 11, 71); */
+    height: 55%;
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+  .gum-treatment-sub-title p{
+    font-size: 1.2rem !important;
+    /* font-family: 'sweeth-gothic', sans-serif; */
+    font-family: 'SangBleu Kingdom Light, Georgia', serif;
+    letter-spacing: 0.12rem;
+    color: white;
+    font-weight: 500;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .gum-treatment-subsection-text-part .contact-btn{
+    margin-top: -20% ;
+    height: 2.5rem;
+    width: 9.5rem;
+    /* border-radius: 20px; */
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 5%;
+  }
+
+  .gum-treatment-subsection-text-part .contact-btn{
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    color: black;
+  }
+
+  .gum-treatment-subsection-text-part .contact-btn:hover{
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .gum-treatment-subsection-text-part a:hover button{
+    color: white;
+  } 
+  
+
+  /* ********************************************************************gum-treatment-procedure******************************************************* */
+
+.gum-treatment-procedure-img{
+  height: 90vh;
+  width: 100%;
+  background-color:  #ded4ca;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center; /* Align vertically */
+  justify-content: space-between; /* Adjust spacing */
+  gap: 20px; /* Space between image and text */
+  padding: 20px;
+  position: relative;
+}
+
+
+.gum-treatment-procedure-img .gum-img-cont {
+  height: 55vh;
+  width: 38vw;
+  margin-left: 5%;
+  background-size: contain;
+  /* border: 2px solid red; */
+}
+
+.gum-img-cont img{
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
+.gum-treatment-procedure-img .gum-treatment-procedure-content {
+  width: 40%;
+  margin-right: 5%;
+  margin-top: 7%;
+  height: 60vh;
+  /* border: 2px solid red; */
+}
+
+.gum-treatment-procedure-content h4{
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: 'Sweet Gothic', sans-serif;
+  text-align: end;
+  margin-right: 1%;
+  letter-spacing: 0.1rem;
+}
+
+.gum-treatment-procedure-content p{
+  margin-top: 5%;
+  margin-left: -5%;
+  width: 98%;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-align: start;
+  letter-spacing: 0.1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gum-treatment-procedure-content ol{
+  margin-top: 3%;
+}
+
+.gum-treatment-procedure-content ol li {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.1rem;
+  font-weight: normal;
+  text-align: start;
+  letter-spacing: 0.1rem;
+  margin-top: 1.5%;
+}
+
+/* ********************************************************************gum-treatment-types******************************************************** */
+
+.gum-treatment-types-section{
+  height: 70vh;
+  width: 100%;
+  background-color:  #c0b9b2;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center; /* Align vertically */
+  justify-content: space-between; /* Adjust spacing */
+  gap: 20px; /* Space between image and text */
+  padding: 20px;
+  position: relative;
+}
+
+
+.gum-treatment-types-section .gum-type-img-cont {
+  height: 52vh;
+  width: 38vw;
+  margin-right: 5%;
+  background-size: contain;
+  /* border: 2px solid red; */
+}
+
+.gum-type-img-cont img{
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
+.gum-treatment-types-section .gum-treatment-types-content {
+  width: 40%;
+  margin-right: 5%;
+  margin-top: 7%;
+  height: 60vh;
+  /* border: 2px solid red; */
+}
+
+.gum-treatment-types-content h4{
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: 'Sweet Gothic', sans-serif;
+  text-align: start;
+  margin-left: 8%;
+  letter-spacing: 0.1rem;
+}
+
+.gum-treatment-types-content p{
+  margin-top: 5%;
+  margin-left: 9%;
+  width: 98%;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-align: start;
+  letter-spacing: 0.1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gum-treatment-types-content ol{
+  margin-top: 3%;
+}
+
+.gum-treatment-types-content ol li {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.1rem;
+  font-weight: normal;
+  text-align: start;
+  letter-spacing: 0.1rem;
+  margin-top: 1.5%;
+  margin-left: 15%;
+}
+
+/* -------------------------------------------------------------gum-bef-af-images------------------------------------------------- */
+
+.gum-bef-af-images{
+  height: 50vh;
+  width: 100%;
+  background-color: #c8c2bd;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
+}
+
+.gum-bef-cont{
+  height: 40vh;
+  width: 18vw;
+}
+
+.gum-bef-cont img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gum-af-cont{
+  height: 40vh;
+  width: 18vw;
+}
+
+.gum-af-cont img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ------------------------------------------------------------gum-bef-af-texts------------------------------------------------------ */
+
+.bef-af-text-section{
+  height: 12vh;
+  width: 100%;
+  /* border: 2px solid black; */
+  background: #c8c2bd;
+  display: flex;
+  align-items: center;
+}
+
+.bef-af-text-section .bef-text{
+  height: 7vh;
+  width: auto;
+  padding: 8px 20px 8px 20px;
+  color: black;
+  margin-left: 24vw;
+}
+
+.bef-af-text-section .af-text{
+  height: 7vh;
+  width: auto;
+  padding: 8px 20px 8px 20px;
+  color: black;
+  margin-left: 30vw;
+}
+
+.bef-text h2, .af-text h2{
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+/* -------------------------------------------------------------gum-bef-af-images------------------------------------------------- */
+
+.gum-bef-af-second-images{
+  height: 45vh;
+  width: 100%;
+  background-color: #c8c2bd;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.gum-bef-second-cont{
+  height: 30vh;
+  width: 25vw;
+}
+
+.gum-bef-second-cont img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gum-af-second-cont{
+  height: 30vh;
+  width: 25vw;
+}
+
+.gum-af-second-cont img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+
+/* ----------------------------------------------------------benefits---------------------------------------------------------- */
+
+.gum-treatment-benefits{
+  height: 45ch;
+  width: 100%;
+  background-color: #dad3cd;
+}
+
+.gum-treatment-benefits h2{
+  text-align: center;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.gum-treatment-benefits ol{
+  display: flex;
+  align-items: center;
+}
+
+.gum-treatment-benefits ol li{
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  padding-top: 1%;
+  margin-left: 12%;
+}
+

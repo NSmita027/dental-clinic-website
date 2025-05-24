@@ -79,7 +79,6 @@ body{
   position: relative;
   z-index: 2;
   right: 27%;
-  font-size: 1rem;
   height: 3rem;
   width: 10rem;
   /* border-radius: 20px; */
@@ -182,7 +181,7 @@ body{
 
 @media screen and (max-width: 576px) {
   .index-slideshow-container {
-    height: 350px;
+    height: 50rem;
   }
   
   .index-text {
@@ -3013,9 +3012,3 @@ margin-top: 5%;
       height: 150px;
     }
   }
-
-
-
-
-
-

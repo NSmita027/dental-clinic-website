@@ -121,6 +121,7 @@ header {
 }
 .phn-no:hover {
   background-color: black;
+  color: white;
 }
 .phn-no:hover a {
   color: white;

@@ -1366,6 +1366,10 @@ body{
   object-position: 50% 25%; 
 }
 
+.celeb-video #Johnny-lever{
+  object-position: 50% 40%;
+}
+
 .celeb-img img{
   position: absolute;
   height: inherit;
@@ -1408,10 +1412,17 @@ body{
   border-radius: 50%;
 }
 
+.navbtns button:hover{
+  background: #000;
+  color: white;
+}
+
 .navbtns button:active{
   background: #000;
-  color:white;
+  color:white !important;
 }
+
+
 
 @media(max-width:400px) and (min-width:300px){
   .celeb-testi-section{

@@ -22,14 +22,12 @@ const images = {
         "assets/IMG_9639-zoom.jpeg"
     ],
     3: [
-        "assets/IMG_9636.jpeg",
-        "assets/IMG_9639-zoom.jpeg",
-        "assets/IMG_9638.jpeg",
-        "assets/IMG_9642.jpeg",
-        "assets/IMG_9627.jpeg",
-        "assets/IMG_9633.jpeg",
-        "assets/IMG_9637.jpeg",
-        "assets/andheri-2.jpg"
+        "colaba-1.jpeg",
+        "colaba-2.jpeg",
+        "colaba-3.jpeg",
+        "colaba-4.jpeg",
+        "colaba-5.jpeg",
+        "colaba-6.jpeg",
     ]
 };
 

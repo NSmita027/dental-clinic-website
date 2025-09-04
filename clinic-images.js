@@ -2,14 +2,14 @@
 
 const images = {
     1: [
-        "assets/IMG_9642.jpeg",
-        "assets/IMG_9638.jpeg",
-        "assets/IMG_9636.jpeg",
-        "assets/IMG_9627.jpeg",
-        "assets/IMG_9637.jpeg",
-        "assets/IMG_9633.jpeg",
-        "assets/IMG_9639-zoom.jpeg",
-        "assets/andheri-2.jpg"
+        "IMG_9642.jpeg",
+        "IMG_9638.jpeg",
+        "IMG_9636.jpeg",
+        "IMG_9627.jpeg",
+        "IMG_9637.jpeg",
+        "IMG_9633.jpeg",
+        "IMG_9639-zoom.jpeg",
+        "andheri-2.jpg"
     ],
     2: [
         "assets/IMG_9638.jpeg",
